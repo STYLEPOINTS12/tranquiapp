@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TranquiApp</title>
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
   <header class="navbar">
     <div class="container">
       <a href="#" class="logo">TranquiApp</a>
+      <button class="menu-toggle" aria-label="Menú">☰</button>
       <nav>
         <ul class="nav-links">
           <li><a href="#inicio">Inicio</a></li>
@@ -23,11 +25,25 @@
 
   <section id="inicio" class="hero">
     <div class="container">
-      <h1>Encuentra tu calma con <span>TranquiApp</span></h1>
-      <p>Transforma tu vida diaria con herramientas de mindfulness, meditación y organización personal</p>
+      <h1>Alcanza el equilibrio perfecto con <span>TranquiApp</span></h1>
+      <p>Descubre cómo unos minutos de mindfulness, meditación y organización pueden transformar tu día a día. Con TranquiApp, dale a tu vida la tranquilidad y productividad que merece.</p>
       <div class="hero-buttons">
-        <a href="#" class="btn btn-primary">Prueba gratis</a>
-        <a href="#" class="btn btn-secondary">Ver demo</a>
+        <a href="./Login.html" class="btn btn-primary">Prueba gratis</a>
+        <a href="https://www.figma.com/proto/XN4z6Ef61JGB4ixUXnFIxT/TranquiApp?node-id=0-1&t=BBT9JNUObgeg4EUz-1" class="btn btn-secondary">Ver demo</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Una app pensada para tu bienestar</h2>
+          <p>TranquiApp está diseñada para ayudarte a manejar el estrés académico y emocional. Reúne técnicas de relajación como la respiración guiada y la música, y te conecta con una comunidad anónima para compartir experiencias y recibir apoyo real. Su enfoque accesible, personalizable y empático la convierte en una herramienta ideal para quienes buscan calma y conexión en su día a día.</p>
+        </div>
+        <div class="about-image">
+          <img src="./img/app-image.png" alt="Ilustración de TranquiApp" />
+        </div>
       </div>
     </div>
   </section>
@@ -57,9 +73,13 @@
 
   <section id="comenzar" class="cta">
     <div class="container">
-      <h2>Comienza tu viaje hacia la tranquilidad</h2>
-      <p>Únete a miles de estudiantes que ya han encontrado su equilibrio con TranquiApp</p>
-      <a href="#" class="btn btn-primary">Explorar</a>
+      <h2>¿Quieres conocer más sobre TranquiApp?</h2>
+      <p>Déjanos tu correo electrónico y nos pondremos en contacto contigo con novedades, acceso anticipado y más.</p>
+
+      <form id="contact-form" class="email-form">
+        <input type="email" name="email" id="email" placeholder="Tu correo electrónico" required>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </div>
   </section>
 
@@ -88,12 +108,26 @@
       <div>
         <h5>Síguenos</h5>
         <ul class="social">
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">Twitter</a></li>
+          <li>
+            <a href="#">
+              <img src="./img/facebook-logo.png" alt="Facebook logo"> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/instagram-logo.svg" alt="Instagram logo"> Instagram
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/twitter-logo.svg" alt="Twitter logo"> Twitter
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
