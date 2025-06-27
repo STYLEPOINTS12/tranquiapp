@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TranquiApp</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="animations.css" />
+  <link rel="stylesheet" href="./public/assets/styles/style.css" />
+  <link rel="stylesheet" href="./public/assets/styles/animations.css" />
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
@@ -77,15 +77,15 @@
   <!-- HEADER -->
   <header class="navbar">
     <div class="logo-nav">
-      <img src="img/logotranquiapp.png" alt="Logo" height="32">
+      <img src="./public/assets/img/logotranquiapp.png" alt="Logo" height="32">
       <span class="brand-name">TranquiApp</span>
     </div>
     <nav class="nav-links">
-      <a href="index.html">Inicio</a>
-      <a href="muro.html">Muro Emocional</a>
-      <a href="estadisticas.html">Estadísticas</a>
-      <a href="login.html">Login</a>
-      <a href="contact.html">Contacto</a>
+      <a href="./index.html">Inicio</a>
+      <a href="./public/muro.html">Muro Emocional</a>
+      <a href="./public/estadisticas.html">Estadísticas</a>
+      <a href="./public/login.html">Login</a>
+      <a href="./public/contact.html">Contacto</a>
     </nav>
   </header>
 
@@ -100,12 +100,12 @@
     </div>
 
     <div class="cta muro-btn">
-      <a href="muro.html"><button class="primary">Ir al Muro Emocional</button></a>
-      <a href="breath.html"><button class="secondary">Simulador de Respiración</button></a>
+      <a href="./public/muro.html"><button class="primary">Ir al Muro Emocional</button></a>
+      <a href="./public/breath.html"><button class="secondary">Simulador de Respiración</button></a>
     </div>
 
     <div class="cta">
-      <a href="personalizacion.html" class="personalize-btn">🎨 Personalizar</a>
+      <a href="./public/personalizacion.html" class="personalize-btn">🎨 Personalizar</a>
     </div>
   </section>
 
@@ -135,7 +135,7 @@
   <!-- BOTÓN DE MÚSICA -->
   <button id="music-btn" title="Música ambiental">🎵</button>
   <audio id="ambientMusic" loop>
-    <source src="music/relax.mp3" type="audio/mpeg" />
+    <source src="./public/assets/music/relax.mp3" type="audio/mpeg" />
   </audio>
 
   <!-- SCRIPTS -->
