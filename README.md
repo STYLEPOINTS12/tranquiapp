@@ -27,7 +27,7 @@ TranquiApp es una aplicación web centrada en el bienestar emocional de estudian
 ## ▪ Autores
 
 - Carlos Antonio Cotrina Vallejos (U20231F286)
-- 
+
 - Rivera Ayala, Gabriel Alejandro (U202223279)
 
 - Smith Ramirez, Juan Carlos (U202419184)
