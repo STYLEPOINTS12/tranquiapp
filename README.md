@@ -32,6 +32,8 @@ TranquiApp es una aplicación web centrada en el bienestar emocional de estudian
 
 - Smith Ramirez, Juan Carlos (U202419184)
 
+https://github.com/STYLEPOINTS12/tranquiapp.git
+
 &nbsp;
 
 ------------
