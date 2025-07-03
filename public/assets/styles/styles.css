@@ -775,6 +775,27 @@ body[data-theme='dark'] {
   margin-top: 2rem;
 }
 
+.product-btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  background: #7c3aed;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  background: #5b21b6;
+  transform: scale(1.05);
+}
+
 .extra-btn {
   background: #7c3aed;
   color: white;
